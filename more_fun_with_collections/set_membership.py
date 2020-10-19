@@ -4,7 +4,7 @@ Program:set_membership.py
 contains in_set function.
 """
 
-# accepts a set and return a boolean value stating if the element is in the set
+# accepts a set and element and return a boolean value stating if the element is in the set
 def in_set(some_set, some_val):
 
     return some_val in some_set
