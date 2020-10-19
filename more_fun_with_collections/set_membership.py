@@ -4,12 +4,14 @@ Program:set_membership.py
 contains in_set function.
 """
 
+# accepts a set and return a boolean value stating if the element is in the set
 def in_set(some_set, some_val):
-    pass
-    # return some_val in some_set
+
+    return some_val in some_set
 
 
 if __name__ == '__main__':
     my_set = {1, 2, 3, 4}
     my_val = 2
-    print(in_set(my_set,my_val))
+    # checking if  an item in the set
+    print("Is {} in {}? {}".format(my_val,my_set,in_set(my_set, my_val)))
