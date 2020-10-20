@@ -3,7 +3,7 @@ from more_fun_with_collections import dict_membership
 
 
 class MyTestCase(unittest.TestCase):
-    # assertion for an item in the dictionary (expect True)
+    # assertion for an item in the dictionary (expect True )
     def test_in_set_true(self):
         my_dict = {'A': 90, 'B': 80, 'C': 70, 'D': 60, 'F': 0}
         my_val = 'A'
